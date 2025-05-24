@@ -1,0 +1,16 @@
+services:
+  php:
+    image: php:8.2-cli-alpine
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./:/var/www/html
+    working_dir: /var/www/html
+    command: php -S 0.0.0.0:8080
+    healthcheck:
+      test: ["CMD", "wget", "--spider", "-q", "http://localhost:8080"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 10s
+    restart: unless-stopped

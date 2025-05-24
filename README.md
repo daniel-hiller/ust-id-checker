@@ -13,6 +13,8 @@ Ein modernes Web-Tool zur schnellen und zuverlässigen Prüfung von Umsatzsteuer
 
 ## Installation
 
+### Option 1: Lokale Installation
+
 1. Klonen Sie das Repository:
 ```bash
 git clone https://github.com/daniel-hiller/ust-id-checker.git
@@ -26,6 +28,26 @@ git clone https://github.com/daniel-hiller/ust-id-checker.git
 3. Konfigurieren Sie einen Webserver (Apache/Nginx) mit PHP-Unterstützung
 
 4. Kopieren Sie die Dateien in das Webroot-Verzeichnis
+
+### Option 2: Docker Installation
+
+1. Klonen Sie das Repository:
+```bash
+git clone https://github.com/daniel-hiller/ust-id-checker.git
+cd ust-id-checker
+```
+
+2. Starten Sie den Container:
+```bash
+docker-compose up -d
+```
+
+3. Die Anwendung ist nun unter http://localhost:8080 verfügbar
+
+4. Zum Stoppen des Containers:
+```bash
+docker-compose down
+```
 
 ## Verwendung
 
