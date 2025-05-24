@@ -82,11 +82,11 @@ Die Anwendung unterstützt alle offiziellen BZSt-Fehlercodes:
 
 ## Lizenz
 
-Copyright © 2025 Daniel Hiller
+Dieses Projekt ist unter der MIT-Lizenz lizenziert. Siehe [LICENSE](LICENSE) für Details.
 
 ## Autor
 
-Daniel Hiller
+Made with ❤️ by Daniel Hiller
 
 ## GitHub
 
